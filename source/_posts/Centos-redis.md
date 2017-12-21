@@ -77,6 +77,8 @@ make[1]: Leaving directory `/usr/local/redis-4.0.6/src'
 至此，安装完成，总结一下安装步骤，需要两个依赖库`gcc-c++`,`tcl`，那么理想的操作应该是先把库准备好再安装redis
 
 ## 安装小结
+
+以下是总结出来的理想操作步骤
 ```
 # yum -y install gcc-c++ tcl
 # wget http://download.redis.io/releases/redis-4.0.6.tar.gz
