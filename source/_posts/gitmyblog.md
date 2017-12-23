@@ -29,8 +29,6 @@ layout/
 scripts/
 source/
 _config.yml
-bower.json
-gulpfile.coffee
 LICENSE
 package.json
 README.cn.md
@@ -50,7 +48,7 @@ git purh -u orogin master
 ```
 等待操作完成即可。
 
-### 版本过低处理
+## 版本过低处理
 如果上传到github后，有提示uglify-js版本<2.6.0，可以尝试通过以下方式处理
 
 删除本地 `package-lock.json`后重新提交
